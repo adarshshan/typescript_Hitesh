@@ -17,6 +17,10 @@ let adarsh: User | Admin = {
     id: 23
 }
 adarsh = { name: 'shanu', id: 8383 };
+let jidu: User | Admin = {
+    username: 'abinesh',
+    id: 22
+}
 
 
 // function getDbId(id: string | number) {
@@ -34,5 +38,5 @@ function getDbId(id: string | number) {
 let data: number[] = [3, 54, 67, 867, 2]
 let detail: (string | number | true)[] = ['sh', 'an', 'u', 23, true]
 
-let seatAllotment:'aisle'|'middle'|'window';
-seatAllotment="middle"
+let seatAllotment: 'aisle' | 'middle' | 'window';
+seatAllotment = "middle"
